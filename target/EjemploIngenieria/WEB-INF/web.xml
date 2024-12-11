@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>ButtonServlet</servlet-name>
+        <servlet-class>com.ingenieria.ButtonServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ButtonServlet</servlet-name>
+        <url-pattern>/ButtonServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FormulaServlet</servlet-name>
+        <servlet-class>com.ingenieria.FormulaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormulaServlet</servlet-name>
+        <url-pattern>/FormulaServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
